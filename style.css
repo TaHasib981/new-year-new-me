@@ -96,8 +96,54 @@
 }
 /* hand  section*/
 .hand{
+    margin-top: 80px !important;
     width: 60%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     background-image: url(./images/watch.png);
+}
+.hand-text{
+    width: 40%;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+.hand-text button{
+    margin-top: 7px;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+/* footer  */
+footer{
+    margin-top: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.feature{
+    color: wheat;
+    width: 50%;
+    padding: 20px 20px 20px 60px;
+}
+.email{
+    padding: 6px 0px;
+}
+.subscrib{
+    width: 50%;
+    padding: 40px 20px 20px 60px;
+}
+.subscrib input{
+    margin: 30px 30px 30px 0px;
+    outline: none;
+}
+.subscrib button{
+    padding: 8px 15px;
+    background-color: rgba(52, 52, 236, 0.668);
+    border-radius: 4px;
+    color: wheat;
+}
+.social-icon img{
+    width: 30px;
+    padding-top: 5px;
 }
